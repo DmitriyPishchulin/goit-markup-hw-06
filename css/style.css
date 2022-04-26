@@ -244,7 +244,6 @@ img {
 
   min-height: 581px;
   min-width: 528px;
-  padding: 15px;
 
   background-color: var(--main-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -271,8 +270,79 @@ img {
   background-color: var(--main-background-color);
 }
 
+.button-close:hover, 
+.button-close:focus {
+  color: var(--accent-color);
+}
+
 .icon-close {
   fill: currentColor;
+}
+
+.form {
+  padding: 40px;
+}
+
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-field:last-child {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: var(--main-text-color);
+}
+
+.form-label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--secondary-text-color);
+}
+
+.form-input {
+  padding: 12px 35px;
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-textarea {
+  display: block;
+  height: 120px;
+  resize: none;
+  padding: 12px 16px;
+}
+
+.form-textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form-input:hover, 
+.form-input:focus {
+  outline: none;
+  border-color: var(--accent-color);
 }
 
 /* Features section */
