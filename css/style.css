@@ -591,6 +591,56 @@ img {
   color: var(--accent-color);
 }
 
+.footer-subscribe {
+  margin-left: 93px;
+}
+
+.footer-subscribe-text {
+font-weight: 700;
+text-transform: uppercase;
+color: var(--white);
+}
+
+.subscribe-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.subscribe-input {
+  width: 358px;
+  padding: 16px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: var(--hero-background-color);
+  color: var(--white);
+  margin-right: 12px;
+}
+
+.submit-btn {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  color: var(--white);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.icon-send {
+  fill: currentColor;
+  margin-left: 10px;
+}
+
+
 /* Portfolio */
 
 .portfolio-section {
