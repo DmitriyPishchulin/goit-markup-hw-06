@@ -448,14 +448,23 @@
             <div class="form-field">
               <label class="form-label" for="name">Имя</label>
               <input class="form-input" type="name" id="name" />
+              <svg class="input-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
             </div>
             <div class="form-field">
               <label class="form-label" for="tel">Телефон</label>
               <input class="form-input" type="tel" id="tel" />
+              <svg class="input-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
             </div>
             <div class="form-field">
               <label class="form-label" for="email">Почта</label>
               <input class="form-input" type="email" id="email" />
+              <svg class="input-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
             </div>
             <div class="form-field">
               <label class="form-label" for="comments">Комментарий</label>
@@ -466,6 +475,20 @@
                 placeholder="Введите текст"
               ></textarea>
             </div>
+            <div class="form-field-check">
+              <label class="policy-lable" for="policy">
+                <input
+                  class="form-checkbox visually-hidden"
+                  type="checkbox"
+                  name="policy"
+                  id="policy"
+                />
+                <span class="icon-check"></span>
+                Соглашаюсь с рассылкой и принимаю
+                <a class="link-check" href="#">Условия договора</a>
+              </label>
+            </div>
+            <button class="btn-submit-modal" type="submit">Отправить</button>
           </form>
         </div>
       </div>
