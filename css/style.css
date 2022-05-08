@@ -291,14 +291,11 @@ img {
   display: flex;
   flex-direction: column;
   position: relative;
-}
-
-.form-field:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.form-field {
-  
+.form-field:nth-child(5) {
+  margin-bottom: 0;
 }
 
 .modal-title {
@@ -363,19 +360,19 @@ img {
   fill: var(--accent-color);
 }
 
-.form-field-check {
-  padding-left: 14px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-
 .policy-lable {
+  justify-content: center;
   display: flex;
   align-items: center;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
+
+.form-field-check {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 
 .icon-check {
   display: inline-block;
@@ -661,6 +658,10 @@ img {
   align-items: baseline;
 }
 
+.footer-contacts-flex {
+  flex-grow: 1;
+}
+
 .footer-social-flex {
   width: 206px;
   height: 80px;
@@ -683,7 +684,6 @@ img {
 .footer-social-item {
   width: 44px;
   height: 44px;
-
 }
 
 .footer-social-link {
@@ -769,10 +769,11 @@ color: var(--white);
 }
 
 .submit-btn {
-  display: flex;
+  display: inline-flex;
   width: 200px;
   height: 50px;
   color: var(--white);
+  border: transparent;
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
